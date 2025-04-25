@@ -9,16 +9,13 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    source/logic.c \
-    source/entry.c \
-    source/main.cpp \
     source/mainwindow.cpp \
-    source/utils.c
+    source/memory.cpp
 
 
 HEADERS += \
-    include/exceptions.h \
-    include/mainwindow.hpp
+    include/mainwindow.hpp \
+    include/memory.hpp
 
 INCLUDEPATH += \
     include
